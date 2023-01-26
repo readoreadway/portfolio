@@ -1,0 +1,140 @@
+#about {
+    padding: 2.5rem 0;
+    height: fit-content;
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  place-items: center;
+}
+
+.about__me {
+  display: grid;
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--gold-dk), transparent);
+  place-items: center;
+}
+
+.about__me--img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    overflow: hidden;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.about__me--img:hover {
+    transform: rotate(0deg);
+}
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-bg-dk);
+    border-radius: 2rem;
+    border: solid 1px transparent;
+    text-align: center;
+    padding: 2rem;
+    transition: var(--transition);
+}
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-bg-dk);
+}
+
+.about__icon {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--gold-dk);
+}
+.about__card h5 {
+    font-size: .95rem;
+}
+.about__card small {
+    font-size: .75rem;
+    color: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+#about h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* ************MEDIA QUERIES (MEDIUM DEVICES)************** */
+
+@media screen and (max-width: 64rem) {
+    .about__container {
+      display: flex;
+      flex-direction: column;
+    }
+    .about__me {
+      width: 50%;
+      margin: 2rem auto 4rem;
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+    .about__cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: .5rem auto;
+        width: 97vw;
+    }
+    .about__card {
+        width: 30vw;
+    }
+    .about__content p {
+        padding: .5rem;
+        margin: 1rem 0;
+    }
+    .about__content a {
+        margin-left: .8rem;
+    }
+  }
+  
+  /* ************MEDIA QUERIES (SMALL DEVICES)************** */
+  
+  @media screen and (max-width: 37.5rem) {
+    .container {
+      width: var(--container-width-sm);
+    }
+    section > h2 {
+      margin-top: 2rem;
+    }
+    #about {
+        height: fit-content;
+        padding: 1rem 0;
+    }
+    .about__me {
+        width: 60vw;
+    }
+    .about__cards {
+        flex-direction: column;
+        margin: .5rem 0;
+        width: 100vw;
+    }
+    .about__card {
+        width: 60vw;
+        padding: 2rem 1rem;
+    }
+    .about__content p {
+        padding: .3rem;
+        margin: 1rem;
+    }
+    .about__content a {
+        margin-left: 1rem;
+    }
+  }

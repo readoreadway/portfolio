@@ -1,0 +1,47 @@
+#experience {
+  height: fit-content;
+}
+
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.experience__content {
+    width: 30vw;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 1.5rem;
+    background: var(--color-bg-dk);
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin: 0 auto;
+}
+.experience__content h3 {
+    text-align: center;
+    grid-column: 1 / span 2;
+    margin-bottom: 1rem;
+}
+
+.experience__details {
+  margin-bottom: 1rem;
+}
+
+
+/* ************MEDIA QUERIES (MEDIUM DEVICES)************** */
+
+@media screen and (max-width: 64rem) {
+    .experience__content {
+      width: 60vw;
+    }
+  }
+  
+  /* ************MEDIA QUERIES (SMALL DEVICES)************** */
+  
+  @media screen and (max-width: 37.5rem) {
+    .experience__content {
+      width: var(--container-width-sm);
+    }
+  }

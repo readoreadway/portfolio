@@ -1,0 +1,40 @@
+nav {
+    display: block;
+    padding: .5rem 1.2rem;
+    background: var(--color-bg-dk);
+    width: max-content;
+    z-index: 2;
+    position: fixed;
+    margin-inline: auto;
+    left: 50%;
+    bottom: 1.5rem;
+    transform: translateX(-50%);
+    border-radius: 3rem;
+    display: flex;
+    gap: .9rem;
+}
+nav a {
+    background: transparent;
+    display: flex;
+    padding: .6rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--color-white-sec);
+}
+nav a:hover {
+    background: var(--color-tomato);
+}
+
+nav a.active {
+    background: var(--color-tomato);
+}
+
+
+/* ************MEDIA QUERIES (SMALL DEVICES)************** */
+  
+@media screen and (max-width: 37.5rem) {
+    nav {
+        bottom: 5rem;
+        transform: translateX(-50%);
+    }
+}
