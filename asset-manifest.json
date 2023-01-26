@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4446d1b0.css",
+    "main.js": "/portfolio/static/js/main.64aca0b2.js",
+    "static/media/Al-aleem.png": "/portfolio/static/media/Al-aleem.66b6dbd0c5ee892e5364.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.7a71178b0ffe7821be8f.jpg",
+    "static/media/Quiz App.png": "/portfolio/static/media/Quiz App.e1b7f3fb8a597301326c.png",
+    "static/media/female-dummy.png": "/portfolio/static/media/female-dummy.198700f1b094e907e04c.png",
+    "static/media/Netlix.png": "/portfolio/static/media/Netlix.611c8514ebc51e30aa29.png",
+    "static/media/Dewumi.jpg": "/portfolio/static/media/Dewumi.89c0cbf5e52389a80e36.jpg",
+    "static/media/3d-dummy.png": "/portfolio/static/media/3d-dummy.45a227c4d9efed51972c.png",
+    "static/media/Bamigbade Ridwan Resume.pdf": "/portfolio/static/media/Bamigbade Ridwan Resume.2f6b6182434691b5776c.pdf",
+    "static/media/To-do img.png": "/portfolio/static/media/To-do img.b03609979ba688702c50.png",
+    "index.html": "/portfolio/index.html",
+    "main.4446d1b0.css.map": "/portfolio/static/css/main.4446d1b0.css.map",
+    "main.64aca0b2.js.map": "/portfolio/static/js/main.64aca0b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4446d1b0.css",
+    "static/js/main.64aca0b2.js"
+  ]
+}
