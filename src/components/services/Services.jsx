@@ -18,27 +18,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>HyperText Markup Language (HTML)</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Cascading Style Sheet (CSS)</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p className="sass">Syntactically Awesome Style Sheets (SASS).</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>JavaScript Fundamentals + ES6</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>JSX, Hooks and Redux</p>
             </li>
             
           </ul>
@@ -48,33 +48,33 @@ const Services = () => {
 
         <article className="service">
           <div className="service__heading">
-            <h3>UI/UX Design</h3>
+            <h3>Design</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Ideation</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Creativity</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Problem Solving</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>UI (design)</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Styling</p>
             </li>
             
           </ul>
@@ -90,27 +90,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Basic SEO/SEM</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Social Media Management</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Basic Design Skills</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>CRM</p>
             </li>
 
             <li>
               <BiCheckSquare className="service__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Research and Online Resources</p>
             </li>
             
           </ul>

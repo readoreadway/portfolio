@@ -42,10 +42,14 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-            commodi illo aspernatur temporibus quia, repellendus deserunt non
-            atque fugiat voluptatum praesentium sint similique cum reprehenderit
-            sit amet omnis optio. Eos?
+            My name is Adewumi. I am openly friendly, dedicated, and
+            open-minded. I get across to people and adjust to changes with ease.
+          </p>
+          <p>
+            I believe that a person should work on developing their professional
+            skills and learning new things all the time. Currently, I am looking
+            for a career opportunity that supports me to develop and be the best
+            in the field.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk!

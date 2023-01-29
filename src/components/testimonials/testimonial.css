@@ -14,7 +14,7 @@
   width: 30vw;
   margin-inline: auto;
   background: var(--color-bg-dk);
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 2rem;
 }
 .testimonial__avatar {
@@ -36,6 +36,12 @@
   padding: 0.5rem 0.8rem;
   width: 80%;
   margin-inline: auto;
+}
+.testimonial__item .designation {
+  margin-top: 1rem;
+  font-size: .75rem;
+  font-style: italic;
+  display: block;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {

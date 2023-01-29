@@ -18,35 +18,30 @@ import "./testimonial.css";
 const testimonials = [
   {
     id: "t1",
-    name: "Adeniji Joseph",
+    name: "Adeleke Hamid",
     image: Male1,
     imageTitle: "testimonial 1",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas voluptatibus porro autem quia et totam nostrum iusto alias, quibusdam earum minus omnis illum quis vitae voluptate qui! Voluptates, consectetur!",
+      "Thank you for a job well done, Dewumi. It's easier to work with you, you pay maximum attention to details, always seeking more to deliver your best. In the end, I got what I wanted. Hope to work more with you in future",
+    designation: "CEO/Founder, Marmac Africa",
   },
   {
     id: "t2",
-    name: "Babatunde Hamid",
+    name: "Habyb Abdullah",
     image: Male2,
     imageTitle: "testimonial 2",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas voluptatibus porro autem quia et totam nostrum iusto alias, quibusdam earum minus omnis illum quis vitae voluptate qui! Voluptates, consectetur!",
+      "Exactly what we needed from you! A project delivered in a short time frame, yet, delivered a top notch despite not being a Project Manager. I'm stunned!",
+    designation: "Lead, Hireremote Africa"
   },
   {
     id: "t3",
-    name: "Raheem Zainab",
+    name: "Fayena R",
     image: female,
     imageTitle: "testimonial 3",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas voluptatibus porro autem quia et totam nostrum iusto alias, quibusdam earum minus omnis illum quis vitae voluptate qui! Voluptates, consectetur!",
-  },
-  {
-    id: "t4",
-    name: "Cole Samuel",
-    image: Male2,
-    imageTitle: "testimonial 4",
-    review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas voluptatibus porro autem quia et totam nostrum iusto alias, quibusdam earum minus omnis illum quis vitae voluptate qui! Voluptates, consectetur!",
+      "Starting a journey always seem hard but you made it all easy through your dedication and creativity. Our page management remains, thanks to you.",
+      designation: "Founder/Director, Al-aleem Academy"
   },
 ];
 
@@ -58,12 +53,12 @@ const Testimonial = () => {
 
       <Swiper
         className="container testimonial__container"
-        modules={[ Pagination ]}
+        modules={[Pagination]}
         spaceBetween={20}
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {testimonials.map(({ id, name, image, imageTitle, review }) => {
+        {testimonials.map(({ id, name, image, imageTitle, review, designation }) => {
           return (
             <SwiperSlide className="testimonial__item" key={id}>
               <div className="testimonial__avatar">
@@ -73,6 +68,7 @@ const Testimonial = () => {
               <div className="testimonial__content">
                 <h5> {name} </h5>
                 <small className="review">{review}</small>
+                <small className="designation"> {designation} </small>
               </div>
             </SwiperSlide>
           );
